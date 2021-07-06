@@ -1,9 +1,15 @@
-function calculateData() {
-    console.log(10 + 15 -1 *4);
+function calculateData(countOne, countTwo) {
+    return {
+        valueOne: countOne,
+        valueTwo: countTwo,
+        sum: countOne + countTwo
+    }
 }
 
-calculateData();
-calculateData();
-calculateData();
-calculateData();
-calculateData();
+function returnArray(countOne, countTwo) {
+    return [countOne, countTwo, countOne + countTwo]
+}
+
+var returnedData = returnArray(10, 30);
+
+console.log(returnedData)
