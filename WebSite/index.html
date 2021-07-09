@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Getting Started</title>
+    </head>
+
+    <body>
+        <div id="root" class="user_container">
+            <h1 id="headerValue">Hello, Welcome to TechnoFunnel</h1>
+        </div>
+        <div id="otherRoot" class="user_container">
+            <h2>Welcome to JavaScript Session...</h2>
+        </div>
+
+        <div>
+            <h3 id="current_time"></h3>
+        </div>
+
+        <input id="button_red" type="button" onclick="updateColorRed(event)" value="Change Color to Red" />
+        <input id="button_green" type="button" onclick="updateColorGreen(event)" value="Change Color to Green" />
+        <input id="button_blue" type="button" onclick="updateColorBlue(event)" value="Change Color to Blue" />
+        <input id="button_orange" type="button" onclick="appendText(event)" value="Append Text" /><br/><br/>
+
+        Enter Name: <input id="userInput" type="text" onkeyup="changeOccurred()"/>
+        <input type="button" value="Search" />
+
+        <script src="./index.js"></script>
+    </body>
+</html>
